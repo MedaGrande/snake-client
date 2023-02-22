@@ -18,18 +18,6 @@ const connect = function () {
   //sending move messages to the server
   conn.on("connect", () => {
     conn.write("Name: MGA");
-    // setInterval(() => {
-    //   conn.write("Move: up");
-    // }, 500); 
-    // setInterval(() => {
-    //   conn.write("Move: right");
-    // }, 1000); 
-    // setInterval(() => {
-    //   conn.write("Move: down");
-    // }, 1500); 
-    // setInterval(() => {
-    //   conn.write("Move: left");
-    // }, 2500); 
   });
 
   // interpret incoming data as text
