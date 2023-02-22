@@ -9,8 +9,13 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Snake grows by eating the dots"](../Screenshot%202023-02-22%20at%204.45.48%20PM.png)
-!["Messages/banters can also be exchanged while playing"](../Screenshot%202023-02-22%20at%204.53.40%20PM.png)
+### Snake grows by eating the dots
+
+<img width="563" alt="Screenshot 2023-02-22 at 4 45 48 PM" src="https://user-images.githubusercontent.com/116127724/220776998-970ae5fb-e5e3-4755-b6e6-b15bed118e01.png">
+
+### Messages/banters can also be exchanged while playing
+
+<img width="561" alt="Screenshot 2023-02-22 at 4 53 40 PM" src="https://user-images.githubusercontent.com/116127724/220777058-bc782d73-722b-428f-b5a6-2c7dd41142dd.png">
 
 
 ## Getting Started
