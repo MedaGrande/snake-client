@@ -1,4 +1,4 @@
-const { moveUp, moveDown, moveRight, moveLeft } = require("./constants");
+const { mappings } = require("./constants");
 
 // setup interface to handle user input from stdin
 let connection;
@@ -16,16 +16,10 @@ const setupInput = function(conn) {
 const handleUserInput = function(key) {
   if (key === '\u0003') {
     process.exit(); //control + c to exit
-  } //WASD keys to control our snake
-  if (key === 'w') {
-    connection.write(moveUp);
-  } else if (key === 'a') {
-    connection.write(moveLeft);
-  } else if (key === 's') {
-    connection.write(moveDown);
-  } else if (key === 'd') {
-    connection.write(moveRight);
-    //message to fellow players
+  }
+  // handles all other key strokes
+  if (mappings[key]) {
+    connection.write(mappings[key]);
   } else if (key === 'z') {
     connection.write("Say: Still tiny!?");
   } else if (key === 'm') {
