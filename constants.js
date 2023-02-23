@@ -1,16 +1,16 @@
 const IP = 'localhost';
 const PORT = 50541;
-const moveUp = "Move: up";
-const moveDown = "Move: down";
-const moveRight = "Move: right";
-const moveLeft = "Move: left";
+
+const mappings = {
+  w: "Move: up",
+  a: "Move: left",
+  s: "Move: down",
+  d: "Move: right",
+};
 
 
 module.exports = {
   IP,
   PORT,
-  moveUp,
-  moveDown,
-  moveRight,
-  moveLeft
+  mappings
 };
